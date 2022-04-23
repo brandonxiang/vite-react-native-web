@@ -8,6 +8,9 @@ const config = {
       }
     }),
   ],
+  optimizeDeps: {
+    exclude: ['react-native']
+  },
 }
 
 export default config
